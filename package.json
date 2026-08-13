@@ -9,7 +9,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "build:test": "BASE_PATH=/srv/spilla.de/ SITE_URL=https://ingasadm9.spilla.local astro build",
+    "build:prod": "BASE_PATH=/ SITE_URL=https://spilla.de astro build"
   },
   "dependencies": {
     "astro": "^7.2.1"
